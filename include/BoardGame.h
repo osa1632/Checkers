@@ -26,7 +26,6 @@ namespace GameNS
 		virtual bool isValidStep(int, int, int, int, int) = 0;
 		virtual void setCoordinates(int, int, int, int, int) = 0;
 		virtual void getCoordinates(int&, int&, int&, int&, int) = 0;
-		BoardGame();
 		virtual ~BoardGame();
 	public:
 

@@ -4,8 +4,11 @@ namespace GameNS
 {
 	void Checkers::init()
 	{
+		board = new BoardStates*[DIMENTION];
 		for (int i = 0; i < DIMENTION; i++)
 		{
+			board[i] = new BoardStates[DIMENTION];
+
 			for (int j = 0; j < DIMENTION; j++)
 			{
 				if (i < 2)

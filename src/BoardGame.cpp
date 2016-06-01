@@ -4,15 +4,6 @@ using namespace std;
 
 namespace GameNS
 {
-	BoardGame::BoardGame()
-	{
-		board = new BoardStates*[DIMENTION];
-
-		for (int i = 0; i < DIMENTION; i++)
-		{
-			board[i] = new BoardStates[DIMENTION];
-		}
-	}
 
 	void BoardGame::play()
 	{

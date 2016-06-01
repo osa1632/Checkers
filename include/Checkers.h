@@ -33,7 +33,7 @@ namespace GameNS
 		void init();
 		void play();
 	public:
-		Checkers() :BoardGame::BoardGame() { play(); }
+		Checkers() { play(); }
 		friend ostream& operator<<(ostream& , const Checkers& );
 	};
 }
